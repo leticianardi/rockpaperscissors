@@ -1,7 +1,3 @@
-# CS10 - M12 Assignment: Rock-Paper-Scissors Program
-# LETICIA NARDI
-# output samples are in the end of the file.
-
 import random
 
 run_again = True
@@ -49,6 +45,9 @@ while run_again == True:
   else:
    print(f"\nYou win! {player_move} beats {computer_move}.")
 
+#  elif player_move != "rock" and player_move != "paper" and player_move != "scissors" an player_move != "scissor": 
+#    print(f"\n{player_move} is either misspelled or invalid.")
+   
  # invalid options
  else:
    print(f"\n{player_move} is either misspelled or invalid.")
@@ -67,51 +66,3 @@ while run_again == True:
   
 print("\nBye")
 
-
-
-#########################################################
-
-### OUTPUTS 1: ###
-
-# $ python -u "c:\Users\letic\Desktop\hello\rockPaperScissors2.py"
-
-# Make your throw
-#  Type rock, paper or scissors: paper
-
-# You win! paper beats rock.
-
-#  Keep playing? (y/n) n
-
-# Bye
-
-#########################################################
-
-### OUTPUTS 2: ###
-
-# $ python -u "c:\Users\letic\Desktop\hello\rockPaperScissors2.py"
-
-# Make your throw
-#  Type rock, paper or scissors: rock
-
-# You win! rock beats scissors.
-
-#  Keep playing? (y/n) n
-
-# Bye
-
-#########################################################
-
-### OUTPUTS 3: ###
-
-# You win! paper beats rock.
-
-#  Keep playing? (y/n) y
-
-# Make your throw
-#  Type rock, paper or scissors: scissors
-
-# You win! scissors beats paper.
-
-#  Keep playing? (y/n) n
-
-# Bye
